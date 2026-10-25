@@ -644,6 +644,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:L78L15_TO92"
 			(pin_names
 				(offset 0.254)
@@ -1134,6 +1233,12 @@
 		(uuid "009e889f-9797-43a8-b8fc-7fd708afcdc6")
 	)
 	(junction
+		(at 147.32 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "220adaad-7cdc-4e77-99d0-f5d6a3242e83")
+	)
+	(junction
 		(at 101.6 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1146,22 +1251,10 @@
 		(uuid "22da19cf-0205-4e03-b43d-c71e042ac13d")
 	)
 	(junction
-		(at 138.43 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2704d893-b4a0-4c64-aa88-50640bee3b8b")
-	)
-	(junction
 		(at 77.47 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fcc4361-610a-414c-bc8b-55484e9c8a64")
-	)
-	(junction
-		(at 147.32 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33861918-558d-4107-92ce-f0f17bada888")
 	)
 	(junction
 		(at 107.95 83.82)
@@ -1176,10 +1269,22 @@
 		(uuid "49025db3-d6c0-47c4-89e5-881a7396f654")
 	)
 	(junction
+		(at 138.43 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5646c77e-42e8-494d-a8ec-2d63ec584d29")
+	)
+	(junction
 		(at 101.6 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69ec6074-cfbe-40ca-8cb1-bbfdc02be3b0")
+	)
+	(junction
+		(at 138.43 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b06e8a9-8e37-41c0-8335-d6eed03b7f72")
 	)
 	(junction
 		(at 114.3 97.79)
@@ -1194,10 +1299,34 @@
 		(uuid "7cc596d0-85cb-4fb7-8894-5c42401f43d7")
 	)
 	(junction
+		(at 153.67 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f61ef74-9a0e-44c7-9abf-a5f521f49b48")
+	)
+	(junction
 		(at 128.27 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9054e6dc-d2c5-444a-a09b-b643eec3e6f2")
+	)
+	(junction
+		(at 153.67 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a63da764-4c83-4e33-a54d-1614789d2ba4")
+	)
+	(junction
+		(at 153.67 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa2b6f16-7125-4028-817a-d32fea70c081")
+	)
+	(junction
+		(at 153.67 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b65a02a2-1e6d-44ed-bc32-7dca5d57bd9c")
 	)
 	(junction
 		(at 128.27 72.39)
@@ -1218,22 +1347,22 @@
 		(uuid "c3141ea6-b9b8-4e34-942c-84055e4ab9ae")
 	)
 	(junction
-		(at 147.32 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cca2f7e4-9830-47a5-a1bc-3b488182c2c4")
-	)
-	(junction
 		(at 97.79 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d11d262b-15a4-4a87-86c2-c2256a459dcc")
 	)
 	(junction
-		(at 138.43 83.82)
+		(at 147.32 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d3a0a003-b712-4cfb-8c1a-b8f669f001b3")
+		(uuid "d9bb643a-1a90-48f2-9ff1-7a21c5a645d8")
+	)
+	(junction
+		(at 153.67 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db3d7e53-2cdd-4258-b6fa-b60e043d5111")
 	)
 	(junction
 		(at 147.32 72.39)
@@ -1249,7 +1378,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 111.76) (xy 151.13 111.76)
+			(xy 138.43 111.76) (xy 153.67 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1269,7 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 62.23) (xy 151.13 62.23)
+			(xy 147.32 62.23) (xy 153.67 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1279,7 +1408,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 83.82) (xy 151.13 83.82)
+			(xy 138.43 83.82) (xy 153.67 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1339,6 +1468,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 83.82) (xy 160.02 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f363453-ab1a-4edf-b33a-738d141f4a50")
+	)
+	(wire
+		(pts
 			(xy 85.09 71.12) (xy 87.63 71.12)
 		)
 		(stroke
@@ -1359,6 +1498,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 72.39) (xy 160.02 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c5a485-8699-457e-9c9e-b387a0ad3e7b")
+	)
+	(wire
+		(pts
 			(xy 101.6 106.68) (xy 101.6 111.76)
 		)
 		(stroke
@@ -1366,6 +1515,16 @@
 			(type default)
 		)
 		(uuid "2f8cc21d-2911-4ef9-b08f-fb35feb54e56")
+	)
+	(wire
+		(pts
+			(xy 153.67 106.68) (xy 153.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329afc01-0ded-4a3c-bf5a-c71e22588774")
 	)
 	(wire
 		(pts
@@ -1439,6 +1598,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 97.79) (xy 160.02 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641a8b05-c63b-42c2-a6ad-0138b3906632")
+	)
+	(wire
+		(pts
 			(xy 77.47 111.76) (xy 77.47 83.82)
 		)
 		(stroke
@@ -1459,6 +1628,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 62.23) (xy 160.02 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c9f562-3f10-46e8-ad5e-199882a32854")
+	)
+	(wire
+		(pts
 			(xy 135.89 62.23) (xy 147.32 62.23)
 		)
 		(stroke
@@ -1476,6 +1655,16 @@
 			(type default)
 		)
 		(uuid "76048f91-3974-4d9e-a086-371c219247a6")
+	)
+	(wire
+		(pts
+			(xy 153.67 83.82) (xy 153.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e8afdb-a7e5-4a0b-8da8-f06086f01563")
 	)
 	(wire
 		(pts
@@ -1569,6 +1758,26 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 69.85) (xy 153.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8aff4a7-0975-4c0d-a4cb-cfb6b3fc19e0")
+	)
+	(wire
+		(pts
+			(xy 153.67 93.98) (xy 153.67 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a09208-cada-4494-b860-4fb1eedc5c42")
+	)
+	(wire
+		(pts
 			(xy 73.66 109.22) (xy 87.63 109.22)
 		)
 		(stroke
@@ -1629,7 +1838,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 72.39) (xy 151.13 72.39)
+			(xy 147.32 72.39) (xy 153.67 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1719,6 +1928,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 111.76) (xy 160.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd90e48-4054-46cd-8c27-49240c0bf891")
+	)
+	(wire
+		(pts
 			(xy 101.6 93.98) (xy 101.6 97.79)
 		)
 		(stroke
@@ -1746,6 +1965,16 @@
 			(type default)
 		)
 		(uuid "ea36f11a-50a8-4f0b-ac20-c1c4c08c7ccd")
+	)
+	(wire
+		(pts
+			(xy 153.67 62.23) (xy 153.67 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee17a041-019a-493f-adcd-94d14e0323bd")
 	)
 	(wire
 		(pts
@@ -1779,7 +2008,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 97.79) (xy 151.13 97.79)
+			(xy 153.67 97.79) (xy 153.67 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8d9b4d-97d6-4ef8-9d4c-76c6626c04fc")
+	)
+	(wire
+		(pts
+			(xy 147.32 97.79) (xy 153.67 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1941,6 +2180,164 @@
 			(project "dualpowerfromtrunsregurator"
 				(path "/3559a3db-0290-4f80-9d1d-eb144ce10b0d"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "111b3539-e42a-4c78-b941-978bbf175c39")
+		(property "Reference" "H3"
+			(at 53.34 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 53.34 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyLibrary:MountingHole_3.2mm_M3"
+			(at 50.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "dualpowerfromtrunsregurator"
+				(path "/3559a3db-0290-4f80-9d1d-eb144ce10b0d"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 153.67 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2439dddb-4984-42e0-b992-d9c407439a78")
+		(property "Reference" "C9"
+			(at 156.21 66.1669 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 156.21 68.7069 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm"
+			(at 153.67 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 153.67 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2708f6d7-6c11-4203-b87d-ee8b4ad2b70c")
+		)
+		(pin "1"
+			(uuid "38cbe361-1288-47fb-963d-3c8ab682de00")
+		)
+		(instances
+			(project "dualpowerfromtrunsregurator"
+				(path "/3559a3db-0290-4f80-9d1d-eb144ce10b0d"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -2232,7 +2629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.33uF"
+		(property "Value" "0.1uF"
 			(at 116.84 92.7162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2243,7 +2640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 114.3 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2292,8 +2689,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 156.21 111.76 180)
+		(lib_id "Device:C_Small_US")
+		(at 153.67 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2302,29 +2699,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4add8aac-6dc4-4ec0-b2cd-467a50aa4499")
-		(property "Reference" "J8"
-			(at 155.575 106.68 0)
+		(uuid "49c24651-d29b-43eb-9439-ca2af8662be7")
+		(property "Reference" "C11"
+			(at 156.21 102.9969 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "-15v"
-			(at 155.575 109.22 0)
+		(property "Value" "47uF"
+			(at 156.21 105.5369 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
-			(at 156.21 111.76 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm"
+			(at 153.67 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2335,7 +2734,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 111.76 0)
+			(at 153.67 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 153.67 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e7e90c8-f4fb-41fc-bd82-990fc47fc67e")
+		)
+		(pin "1"
+			(uuid "995cd8b3-9b28-48b1-8d23-5a5e96ae034c")
+		)
+		(instances
+			(project "dualpowerfromtrunsregurator"
+				(path "/3559a3db-0290-4f80-9d1d-eb144ce10b0d"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 165.1 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4add8aac-6dc4-4ec0-b2cd-467a50aa4499")
+		(property "Reference" "J8"
+			(at 164.465 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-15v"
+			(at 164.465 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
+			(at 165.1 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2346,7 +2825,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 156.21 111.76 0)
+			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2370,7 +2849,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 156.21 72.39 180)
+		(at 165.1 72.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2381,7 +2860,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b9207f7-09c7-4d2c-be3b-b1089ec7d6ed")
 		(property "Reference" "J5"
-			(at 155.575 67.31 0)
+			(at 164.465 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2391,7 +2870,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 155.575 69.85 0)
+			(at 164.465 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2401,7 +2880,7 @@
 			)
 		)
 		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
-			(at 156.21 72.39 0)
+			(at 165.1 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2412,7 +2891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 72.39 0)
+			(at 165.1 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2423,7 +2902,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 156.21 72.39 0)
+			(at 165.1 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2468,7 +2947,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.33uF"
+		(property "Value" "0.1uF"
 			(at 116.84 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2529,7 +3008,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 156.21 62.23 180)
+		(at 165.1 62.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2540,7 +3019,7 @@
 		(fields_autoplaced yes)
 		(uuid "662ded11-ca3c-4ed7-949d-8c09048883c4")
 		(property "Reference" "J4"
-			(at 155.575 57.15 0)
+			(at 164.465 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2550,7 +3029,7 @@
 			)
 		)
 		(property "Value" "+15v2"
-			(at 155.575 59.69 0)
+			(at 164.465 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2560,7 +3039,7 @@
 			)
 		)
 		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
-			(at 156.21 62.23 0)
+			(at 165.1 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2571,7 +3050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 62.23 0)
+			(at 165.1 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2582,7 +3061,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 156.21 62.23 0)
+			(at 165.1 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2606,7 +3085,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 156.21 83.82 180)
+		(at 165.1 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2617,7 +3096,7 @@
 		(fields_autoplaced yes)
 		(uuid "687dc3fd-5cf4-47c2-aa6d-82179d9e2a8c")
 		(property "Reference" "J6"
-			(at 155.575 78.74 0)
+			(at 164.465 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2627,7 +3106,7 @@
 			)
 		)
 		(property "Value" "+15v"
-			(at 155.575 81.28 0)
+			(at 164.465 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2637,7 +3116,7 @@
 			)
 		)
 		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
-			(at 156.21 83.82 0)
+			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2648,7 +3127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 83.82 0)
+			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2659,7 +3138,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 156.21 83.82 0)
+			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2999,6 +3478,82 @@
 			(project "dualpowerfromtrunsregurator"
 				(path "/3559a3db-0290-4f80-9d1d-eb144ce10b0d"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85080b5c-5169-4fb2-b8bc-8a8f9c1ee6f1")
+		(property "Reference" "H2"
+			(at 53.34 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 53.34 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyLibrary:MountingHole_3.2mm_M3"
+			(at 50.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "dualpowerfromtrunsregurator"
+				(path "/3559a3db-0290-4f80-9d1d-eb144ce10b0d"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3377,6 +3932,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 50.8 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4fe71b4-e632-4562-bc88-00c757205f70")
+		(property "Reference" "H1"
+			(at 53.34 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 53.34 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyLibrary:MountingHole_3.2mm_M3"
+			(at 50.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 50.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "dualpowerfromtrunsregurator"
+				(path "/3559a3db-0290-4f80-9d1d-eb144ce10b0d"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 114.3 67.31 0)
 		(unit 1)
@@ -3399,7 +4030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.33uF"
+		(property "Value" "01uF"
 			(at 116.84 68.5862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3459,8 +4090,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 156.21 97.79 180)
+		(lib_id "Device:C_Small_US")
+		(at 153.67 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3469,29 +4100,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b028ad9e-dd6f-4612-9e99-c9a21f71311f")
-		(property "Reference" "J7"
-			(at 155.575 92.71 0)
+		(uuid "aae0f9c8-24e3-488b-8a49-4c979e677944")
+		(property "Reference" "C10"
+			(at 156.21 90.2969 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 155.575 95.25 0)
+		(property "Value" "47uF"
+			(at 156.21 92.8369 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
-			(at 156.21 97.79 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm"
+			(at 153.67 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3502,7 +4135,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 97.79 0)
+			(at 153.67 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 153.67 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b89b1712-9bb7-42bc-8564-883b2bd168da")
+		)
+		(pin "1"
+			(uuid "3f3ee168-a9b6-4e3d-899e-a26f3cf211f1")
+		)
+		(instances
+			(project "dualpowerfromtrunsregurator"
+				(path "/3559a3db-0290-4f80-9d1d-eb144ce10b0d"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 165.1 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b028ad9e-dd6f-4612-9e99-c9a21f71311f")
+		(property "Reference" "J7"
+			(at 164.465 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 164.465 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyLibrary:PinHeader_1x01_P2.54mm_Vertical"
+			(at 165.1 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3513,7 +4226,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 156.21 97.79 0)
+			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
